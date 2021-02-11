@@ -1,0 +1,7 @@
+"Magma Forge (A31)
+
+This mod is still in Beta.
+
+Build a Magma Forge over a Magma tile.
+
+-Keidence"

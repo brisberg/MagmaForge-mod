@@ -1,0 +1,2 @@
+"Keidence"
+"Adds a Magma Forge crafting stations which can only be built over magma. All high-end forging requires a magma forge."
