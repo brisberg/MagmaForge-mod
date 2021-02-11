@@ -1,0 +1,8 @@
+# Extend all existing Keeper to build Magma Forge
+
+"1_dark_mage" modify append
+{
+  buildingGroups = append {
+#      "mf_magma_forge"
+  }
+}

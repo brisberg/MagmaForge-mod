@@ -1,0 +1,13 @@
+"basic" modify append
+{
+  "MAGMA_FORGE"
+  {
+    # Name                     Work     Material Cost
+    {{"Sword"}                 10       "IRON" 20}
+    {{"ChainArmor"}            30       "IRON" 40}
+    {{"IronHelm"}              8        "IRON" 16}
+    {{"IronBoots"}             12       "IRON" 24}
+    {{"IronGloves"}            3        "IRON" 2}
+    {{"IronShield"}            12       "IRON" 24}
+  }
+}

@@ -1,0 +1,6 @@
+"GOBLIN" modify append
+{
+      skills = append {
+      "MAGMA_FORGE" 0.6
+    }
+}

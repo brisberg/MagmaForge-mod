@@ -1,0 +1,3 @@
+"crafting" modify append {
+   { Furniture {{ "MAGMA_FORGE" }} "Magma Forge" "Crafting" "Produces adamantium armor and weapons. Must be built over magma." }
+}

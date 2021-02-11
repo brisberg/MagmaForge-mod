@@ -1,0 +1,18 @@
+# Magma Forge stats similar to Forge and Stone Bridge
+"MAGMA_FORGE"
+{
+  name = "magma forge"
+  viewId = { "forge" }
+  blockMovement = true
+  usageTime = 5
+  canHideHere = true
+  strength = 80
+  requiresLight = true
+  destroyFX = { DESTROY_FURNITURE Rgb 120 120 120 255 }
+  usageFX = FORGE
+
+  # Stone Bridge Stats
+  bridge = true
+  fire = 0
+  canBuildOutsideOfTerritory = true
+}
