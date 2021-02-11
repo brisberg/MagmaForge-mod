@@ -1,3 +1,16 @@
-"crafting" modify append {
-   { Furniture {{ "MAGMA_FORGE" }} "Magma Forge" "Crafting" "Produces adamantium armor and weapons. Must be built over magma." }
+#"crafting" append {
+#   #{ Furniture {{ "MAGMA_FORGE" } "WOOD" 5 } "Magma Forge" "Crafting"
+#   #  "Produces adamantium armor and weapons. Must be built over magma."
+#   #  0 { TechId "magma forging"}
+#   #}
+#
+#  { Furniture {{ "MAGMA_FORGE" }  "ADA"  12 }                   "Magma Forge"  "Crafting"
+#  "Produces adamantium armor and weapons. Must be built over magma."   0 { TechId "magma forging" }}
+#}
+
+"mf_magma_forge" {
+  { Furniture {{ "MAGMA_FORGE" } "ADA" 15 } "Magma Forge" "Crafting"
+    "Produces adamantium armor and weapons. Must be built over magma."
+    0 { TechId "magma forging"}
+  }
 }

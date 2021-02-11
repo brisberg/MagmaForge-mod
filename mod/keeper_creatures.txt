@@ -2,6 +2,9 @@
 
 "1_dark_mage" modify append
 {
+  technology = append {
+      "magma forging"
+  }
   buildingGroups = append {
 #      "mf_magma_forge"
   }

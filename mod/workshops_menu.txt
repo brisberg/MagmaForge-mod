@@ -2,12 +2,14 @@
 {
   "MAGMA_FORGE"
   {
-    # Name                     Work     Material Cost
-    {{"Sword"}                 10       "IRON" 20}
-    {{"ChainArmor"}            30       "IRON" 40}
-    {{"IronHelm"}              8        "IRON" 16}
-    {{"IronBoots"}             12       "IRON" 24}
-    {{"IronGloves"}            3        "IRON" 2}
-    {{"IronShield"}            12       "IRON" 24}
+    # Name                     Work     Material Cost  TechId
+    {{"AdaSword"}              20       "ADA" 20}
+    {{"AdaArmor"}              30       "ADA" 40}
+    {{"AdaHelm"}               15       "ADA" 16}
+    {{"AdaBoots"}              15       "ADA" 24}
+    {{"AdaGloves"}             6        "ADA" 2}
+    {{"AdaShield"}             12       "ADA" 24}
+    {{"AdaWarHammer"}          20       "ADA" 40       "two-handed weapons"}
+    {{"AdaBattleAxe"}          22       "ADA" 50       "two-handed weapons"}
   }
 }

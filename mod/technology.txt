@@ -1,0 +1,2 @@
+# Id                    Description                                                            Prerequisites
+"magma forging"				{ "Build a magma forge and produce high-end metal weapons and armor."		{"iron working"}}
