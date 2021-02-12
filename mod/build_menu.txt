@@ -1,6 +1,39 @@
 # Add Magma Forge to the basic crafting build group
 
-"crafting" modify append {
+"crafting" modify append
+{
   { Furniture {{ "MAGMA_FORGE" }  "ADA"  30 }                   "Magma Forge"  "Crafting"
     "Produces adamantium armor and weapons. Must be built over magma."   0 { TechId "magma forging" }}
+}
+
+
+"training_dummies" modify
+{
+  { Furniture {{ "TRAINING_WOOD" } "WOOD" 12 }                   "Wooden dummy"      "Training room"
+      "Train your minions' melee skills here." r {} true  TRAINING_ROOM}
+
+  { Furniture {{ "TRAINING_IRON" } "IRON" 12 }                   "Iron dummy"        "Training room"
+      "Train your minions' melee skills here."   0 { TechId "iron working" } }
+
+  # TRAINING_ADA requires "magma forging"
+  { Furniture {{ "TRAINING_ADA" }  "ADA"  12 }                   "Adamantine dummy"  "Training room"
+      "Train your minions' melee skills here."   0 { TechId "magma forging" }}
+}
+
+"training" modify
+{
+  # Copied from "training_dummies"
+  { Furniture {{ "TRAINING_WOOD" } "WOOD" 12 }                   "Wooden dummy"      "Training room"
+      "Train your minions' melee skills here." r {} true  TRAINING_ROOM}
+
+  { Furniture {{ "TRAINING_IRON" } "IRON" 12 }                   "Iron dummy"        "Training room"
+      "Train your minions' melee skills here."   0 { TechId "iron working" } }
+
+  # TRAINING_ADA requires "magma forging"
+  { Furniture {{ "TRAINING_ADA" }  "ADA"  12 }                   "Adamantine dummy"  "Training room"
+      "Train your minions' melee skills here."   0 { TechId "magma forging" }}
+
+
+  { Furniture {{ "ARCHERY_RANGE" } "WOOD" 12 }                   "Archery target"    "Training room"
+      "Train your minions' archery skills here." 0 { TechId "archery" }}
 }
