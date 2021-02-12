@@ -1,5 +1,28 @@
 "basic" modify append
 {
+  "FORGE" modify
+  {
+      {{"Sword"}                 10       "IRON" 20}
+      {{"ChainArmor"}            30       "IRON" 40}
+      {item = {"RedDragonArmor"}   work = 30 cost = "IRON" 40 requireIngredient = "red_scales" }
+      {item = {"BlackDragonArmor"} work = 30 cost = "IRON" 40 requireIngredient = "black_scales" }
+      {item = {"WhiteDragonArmor"} work = 30 cost = "IRON" 40 requireIngredient = "white_scales" }
+      {item = {"GreenDragonArmor"} work = 30 cost = "IRON" 40 requireIngredient = "green_scales" }
+      {item = {"YellowDragonArmor"}work = 30 cost = "IRON" 40 requireIngredient = "yellow_scales" }
+      {{"IronHelm"}              8        "IRON" 16}
+      {{"IronBoots"}             12       "IRON" 24}
+      {item = {"CyclopsHelm"}
+       work = 30
+       cost = "IRON" 40
+       requireIngredient = "cyclops_testes"
+      }
+      {{"IronGloves"}            3        "IRON" 2}
+      {{"IronShield"}            12       "IRON" 24}
+      {{"WarHammer"}             16       "IRON" 40      "two-handed weapons"}
+      {{"BattleAxe"}             22       "IRON" 50      "two-handed weapons"}
+      {{"IronStaff"}             20       "IRON" 40      "magical weapons"}
+  }
+
   "MAGMA_FORGE"
   {
     # Name                     Work     Material Cost  TechId
@@ -11,5 +34,6 @@
     {{"AdaShield"}             12       "ADA" 24}
     {{"AdaWarHammer"}          20       "ADA" 40       "two-handed weapons"}
     {{"AdaBattleAxe"}          22       "ADA" 50       "two-handed weapons"}
+    {{"GoldenStaff"}           20       "GOLD" 200     "magical weapons"}
   }
 }
