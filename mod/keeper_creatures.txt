@@ -5,11 +5,6 @@
   technology = append {
       "magma forging"
   }
-  buildingGroups = {
-    "structure" "doors" "floors" "storage" "zones" "library" "throne" "beds" "beast_cage" "pigsty" "coffins"
-    "training" "crafting" "mf_magma_forge" "laboratory" "jeweller" "poetry" "distillery" "demon_shrine" "prison" "orders"
-    "installations" "magical_installations" "traps"
-  }
 }
 
 "2_dark_knight" modify append
@@ -17,20 +12,11 @@
   technology = append {
       "magma forging"
   }
-  buildingGroups = {
-    "structure" "doors" "floors" "storage" "zones" "library" "throne" "beds" "beast_cage" "pigsty" "coffins"
-    "training" "crafting" "mf_magma_forge" "laboratory" "jeweller" "poetry" "distillery" "demon_shrine" "prison" "orders"
-    "installations" "magical_installations" "traps"
-  }
 }
 "3_white_knight" modify append
 {
   technology = append {
       "magma forging"
-  }
-  buildingGroups = {
-      "structure" "doors" "floors" "storage" "zones" "library" "throne" "beds" "beast_cage"
-      "pigsty" "training" "crafting" "mf_magma_forge" "laboratory" "jeweller" "poetry" "distillery" "angel_shrine" "prison" "orders" "installations"
   }
 }
 "4_gnomes" modify append
@@ -38,19 +24,10 @@
   technology = append {
       "magma forging"
   }
-  buildingGroups = {
-      "structure" "doors" "floors" "storage" "zones" "beds"
-      "crafting" "mf_magma_forge" "laboratory" "distillery" "automatons" "orders" "installations" "traps" "gnome_traps"
-  }
 }
 "6_cyclops" modify append
 {
   technology = append {
       "magma forging"
-  }
-  buildingGroups = {
-      "structure" "doors" "floors" "storage" "zones" "throne" "beds"
-      "training_dummies" "crafting" "mf_magma_forge" "laboratory" "jeweller" "poetry" "distillery" "orders"
-      "installations" "traps"
   }
 }

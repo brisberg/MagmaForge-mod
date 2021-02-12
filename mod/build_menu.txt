@@ -1,25 +1,6 @@
-#"crafting" modify {
-   #{ Furniture {{ "MAGMA_FORGE" } "WOOD" 5 } "Magma Forge" "Crafting"
-   #  "Produces adamantium armor and weapons. Must be built over magma."
-   #  0 { TechId "magma forging"}
-   #}
+# Add Magma Forge to the basic crafting build group
 
-  #{ Furniture {{ "WORKSHOP" }   "WOOD" 15 }                      "Workshop"          "Crafting"
-  #  "Produces leather equipment, traps, first-aid kits and other." m {} true  BUILD_WORKSHOP}
-
-  #{ Furniture {{ "FORGE" }      "IRON" 20 }                      "Forge"             "Crafting"
-  #  "Produces metal weapons and armor."    0 { TechId "iron working" }}
-
-  #{ Furniture {{ "MAGMA_FORGE" }  "ADA"  30 }                   "Magma Forge"  "Crafting"
-  #  "Produces adamantium armor and weapons. Must be built over magma."   0 { TechId "magma forging" }}
-#}
-
-"mf_magma_forge" {
-#  { Furniture {{ "MAGMA_FORGE" } "ADA" 30 } "Magma Forge" "Crafting"
-#    "Produces adamantium armor and weapons. Must be built over magma."
-#    0 { TechId "magma forging"}
-#  }
-
+"crafting" modify append {
   { Furniture {{ "MAGMA_FORGE" }  "ADA"  30 }                   "Magma Forge"  "Crafting"
     "Produces adamantium armor and weapons. Must be built over magma."   0 { TechId "magma forging" }}
 }

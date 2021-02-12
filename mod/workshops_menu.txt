@@ -1,5 +1,6 @@
 "basic" modify append
 {
+  # Replace Forge recipe set with base game set minus adamintium and golden staff recipies
   "FORGE" modify
   {
       {{"Sword"}                 10       "IRON" 20}
